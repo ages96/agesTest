@@ -1,0 +1,97 @@
+#partners {
+    padding-bottom: 90px;
+}
+
+@media (max-width: 1199px) {
+    #partners {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    #partners {
+        padding-bottom: 70px;
+    }
+}
+
+
+.partners_heder_txt_col>h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 767px) {
+    .partners_heder_txt_col>h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 479px) {
+    .partners_heder_txt_col>h2 {
+        font-size: 25px;
+
+    }
+}
+
+.partners_heder_txt_col>p {
+    font-size: 18px;
+    max-width: 730px;
+    margin: 45px auto;
+}
+
+@media (max-width: 767px) {
+    .partners_heder_txt_col>p {
+        font-size: 17px;
+        margin: 35px auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 479px) {
+    .partners_heder_txt_col>p {
+        font-size: 16px;
+        margin: 25px auto;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .custo_col,
+    .luseen_col,
+    .severalnines_col {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .sgames_col,
+    .custo_col,
+    .luseen_col,
+    .severalnines_col {
+        margin-bottom: 35px;
+    }
+}
+
+
+.logos_row {
+    padding-top: 30px;
+
+}
+
+@media (max-width: 479px) {
+    .logos_row {
+        padding-top: 20px;
+    }
+}
+
+
+@media (max-width: 1439px) {
+    .logo_imgs {
+        width: 90%;
+    }
+}
+
+.logos_col {
+    margin: 0 25px;
+}
