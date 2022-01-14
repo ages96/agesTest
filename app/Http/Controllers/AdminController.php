@@ -22,7 +22,7 @@ class AdminController extends Controller
     {
 
         $subject = "Invitation for register!";
-        $url = env('APP_URL','http://localhost/').'register';
+        $url = env('APP_URL','http://localhost:8000').'/register';
         $data = [
             'to' => $request->email,
             'subject' => $subject,
